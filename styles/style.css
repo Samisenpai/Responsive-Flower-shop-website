@@ -146,6 +146,7 @@
 
     #hero{
         height: 100vh;
+        border-bottom:2px solid #e55473;
     }
 
     .hero-container{
@@ -163,22 +164,16 @@
         height: auto;
     }
 
-    .hero-2{
-        margin-top: 3rem;
-       
-       
-        
-    }
-
+    
     .hero-2 .img img{
         border-bottom:2px solid #e55473;
-        min-width: 15rem;
+       
         max-width: 25rem;
         
     }
 
     .heading{
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     
     .description{
@@ -186,10 +181,16 @@
     }
 
     .shop-now .btn{
-        font-size: 0.8rem;
+        font-size: 1rem;
     } 
+       
+       
         
     }
+
+ 
+        
+
 
 
 
