@@ -135,8 +135,63 @@
         margin-top: -9rem;
     }
     
+   
+
 }
     
+
+/* medium devices  */
+
+@media screen and (min-width:576px) and (max-width:992px) {
+
+    #hero{
+        height: 100vh;
+    }
+
+    .hero-container{
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .hero-1{
+        
+        width: auto;
+        height: auto;
+    }
+
+    .hero-2{
+        margin-top: 3rem;
+       
+       
+        
+    }
+
+    .hero-2 .img img{
+        border-bottom:2px solid #e55473;
+        min-width: 15rem;
+        max-width: 25rem;
+        
+    }
+
+    .heading{
+        font-size: 1.5rem;
+    }
+    
+    .description{
+        font-size: 0.8rem;
+    }
+
+    .shop-now .btn{
+        font-size: 0.8rem;
+    } 
+        
+    }
+
+
 
 
 
