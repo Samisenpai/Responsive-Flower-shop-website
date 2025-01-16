@@ -55,7 +55,7 @@
         align-items: center;
         height: 100vh;
        background-color: rgb(252,238,241);
-       border-bottom: 2px solid black;
+       border-bottom: 2px solid #e55473;
         
     }
 
@@ -98,15 +98,19 @@
 
     #hero{
         height: auto;
+        border: none;
     }
 
     .hero-container{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
         
     }
 
     .hero-1{
+        margin-top: 2rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -133,6 +137,13 @@
         height: auto;
         width: auto;
         margin-top: -9rem;
+    }
+
+    .hero-2 .img img{
+        width: 15rem;
+        height: auto;
+        border-bottom: 2px solid #e55473;
+
     }
     
    
